@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lab01.MainActivity">
+    <item
+        android:id="@+id/tem1"
+        android:orderInCategory="100"
+        android:title="轉華氏"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tem2"
+        android:orderInCategory="100"
+        android:title="轉攝氏"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sub"
+        android:orderInCategory="100"
+        android:title="sub"
+        app:showAsAction="never">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context="com.example.lab01.MainActivity">
+            <item
+                android:id="@+id/color1"
+                android:orderInCategory="100"
+                android:title="紅"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/color2"
+                android:orderInCategory="100"
+                android:title="黃"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/color3"
+                android:orderInCategory="100"
+                android:title="綠"
+                app:showAsAction="never" />
+        </menu>
+
+
+
+    </item>
+
+</menu>
